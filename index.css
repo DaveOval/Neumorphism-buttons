@@ -1,0 +1,104 @@
+html{
+    background-color: #e0e0e0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.button{
+    height: 60px;
+    width: 140px;
+    font-size: 1.0rem;
+    border: none;
+}
+
+.button-1{
+    border-radius: 10px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow: 27px 27px 54px #bebebe,
+            -27px -27px 54px #ffffff;
+}
+.button-1:hover {
+    color: blue;
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow: 27px 27px 54px #bebebe,
+            -27px -27px 54px #ffffff;
+}
+.button-1:active{
+    color: darkblue;
+    border-radius: 12px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow: 27px 27px 54px #bebebe,
+    -27px -27px 54px #ffffff;
+}
+
+.button-2 {
+    border-radius: 10px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow: 27px 27px 54px #bebebe,
+        -27px -27px 54px #ffffff;
+    transition: 0.5s;
+}
+
+.button-2:hover {
+    color: blue;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow: 27px 27px 54px #bebebe,
+            -27px -27px 54px #ffffff;
+    transform: translatey(-5%);
+    transition: 0.1s;
+}
+
+.button-2:active {
+    color: darkblue;
+    border-radius: 11px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow: 27px 27px 54px #bebebe,
+            -27px -27px 54px #ffffff;
+    transform: translatey(0%);
+}
+
+.button-3 {
+    border-radius: 20px;
+    background: #e0e0e0;
+    box-shadow: inset 6px 6px 11px #aaaaaa,
+            inset -6px -6px 11px #ffffff;
+}
+
+.button-3:hover {
+    color: blue;
+    border-radius: 20px;
+    background: #e0e0e0;
+    box-shadow: inset 6px 6px 11px #8f8f8f,
+        inset -6px -6px 11px #ffffff;
+}
+
+.button-3:active {
+    color: darkblue;
+    border-radius: 20px;
+    background: #e0e0e0;
+    box-shadow: inset 5px 5px 10px #949494,
+            inset -5px -5px 10px #ffffff;
+}
+.button-4{
+    border-radius: 10px;
+        background: linear-gradient(145deg, #f0f0f0, #cacaca);
+        box-shadow: 20px 20px 60px #bebebe,
+            -20px -20px 60px #ffffff;
+}
+.button-4:hover{
+    color: blue;
+}
+.button-4:active{
+    border-radius: 10x;
+    background: #e0e0e0;
+    box-shadow: inset 20px 20px 60px #bebebe,
+        inset -20px -20px 60px #ffffff;
+}
